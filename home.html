@@ -1,65 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">VinTech</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#About">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact Us</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>  
     <section id="Home">
         <h1>
           <b>YOU CAN BUY ANY ITEM FROM US</b>
         </h1>
         <img src="data:image/jpeg;base64,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" alt="">
     </section>
-    <br><br>
-    <Section id="About">
-        <h1>About Us</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus, dolore sed blanditiis reprehenderit quidem nostrum reiciendis cumque placeat aperiam. Provident perspiciatis tenetur quisquam dolores exercitationem doloremque accusantium dolorem consectetur.
-        </p>
-    </Section>
-    <section>
-      <h1>Services</h1> 
-      <div>
-        <h5>Sales Mangement</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda facere quidem, maxime voluptatum inventore suscipit, excepturi unde accusantium ducimus odio sed, eveniet ad ab beatae repellendus maiores non accusamus?</p>
-      </div> 
-    </section>
-    <br><br>
-    <hr>
-    <br>
-    <section id="Contact">
-        <h1>Contact Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti excepturi sed autem at. Cum facilis non reiciendis soluta veniam animi, nesciunt mollitia id quas rerum, quaerat ut sed tenetur.</p>
-    </section>
-
 </body>
 </html>
